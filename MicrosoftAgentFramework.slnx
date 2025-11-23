@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="Agent.AzureOpenAi/Agent.AzureOpenAi.csproj" />
+  <Project Path="Agent.OpenAI/Agent.OpenAI.csproj" />
   <Project Path="ProjectConstant/ProjectConstant.csproj" />
 </Solution>
