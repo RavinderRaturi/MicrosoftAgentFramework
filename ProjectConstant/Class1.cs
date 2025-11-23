@@ -16,6 +16,10 @@
 
         // Model name used for standard OpenAI operations.
         public const string ApiKeys_OpenAIModel = "gpt-5-nano";
+
+        // Hardcoded Azure Foundry  endpoint used by the client.
+        public const string ApiKeys_AzureFoundryEndPoint = "https://rr-af.services.ai.azure.com/api/projects/demo";
+
     }
 
 
