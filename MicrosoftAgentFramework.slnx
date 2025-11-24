@@ -1,6 +1,8 @@
 <Solution>
   <Project Path="Agent.AzureAiFoundry/Agent.AzureAiFoundry.csproj" />
+  <Project Path="Agent.AzureFoundryLocal/Agent.AzureFoundryLocal.csproj" Id="7769b506-a1cb-4b8a-920c-60bea75a2f53" />
   <Project Path="Agent.AzureOpenAi/Agent.AzureOpenAi.csproj" />
+  <Project Path="Agent.Olaama/Agent.Olaama.csproj" Id="0e841bfc-a544-4d53-af14-d604e5edddc4" />
   <Project Path="Agent.OpenAI/Agent.OpenAI.csproj" />
   <Project Path="ProjectConstant/ProjectConstant.csproj" />
 </Solution>
