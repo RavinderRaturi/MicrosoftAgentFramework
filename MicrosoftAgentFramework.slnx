@@ -5,4 +5,6 @@
   <Project Path="Agent.Olaama/Agent.Olaama.csproj" Id="0e841bfc-a544-4d53-af14-d604e5edddc4" />
   <Project Path="Agent.OpenAI/Agent.OpenAI.csproj" />
   <Project Path="ProjectConstant/ProjectConstant.csproj" />
+  <Project Path="Shared/Shared.csproj" Id="8e74497b-66cd-4d8c-a502-dabb8c31f092" />
+  <Project Path="TokenUsage/TokenUsage.csproj" Id="4b66b733-c750-4d78-9bfa-7e4d6e7dc2ae" />
 </Solution>

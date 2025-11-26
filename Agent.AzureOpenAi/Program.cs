@@ -47,6 +47,7 @@ Console.WriteLine("---");
 // Good for long answers or building real time interfaces.
 await foreach (AgentRunResponseUpdate update in agent.RunStreamingAsync("How to make soup?"))
 {
+    
     Console.Write(update);   // Write incremental chunks as they arrive
 }
 
