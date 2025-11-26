@@ -2,6 +2,9 @@
   <Folder Name="/ChatHistory/">
     <Project Path="MessageHistory/MessageHistory.csproj" Id="1dc5fcb2-964e-43c9-9572-a5137b328e63" />
   </Folder>
+  <Folder Name="/Tools/">
+    <Project Path="BasicToolCalling/BasicToolCalling.csproj" Id="57f410de-1112-4f4c-9a90-ada209a8bf8b" />
+  </Folder>
   <Project Path="Agent.AzureAiFoundry/Agent.AzureAiFoundry.csproj" />
   <Project Path="Agent.AzureFoundryLocal/Agent.AzureFoundryLocal.csproj" Id="7769b506-a1cb-4b8a-920c-60bea75a2f53" />
   <Project Path="Agent.AzureOpenAi/Agent.AzureOpenAi.csproj" />
