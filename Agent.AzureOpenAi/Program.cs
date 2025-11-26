@@ -24,7 +24,7 @@ Console.WriteLine(ProjectConstant.UserSecretsKey.ApiKeys_AzureOpenAI +
 // Without these two inputs, the client cannot authenticate.
 Azure.AI.OpenAI.AzureOpenAIClient client = new AzureOpenAIClient(
     new Uri(UserSecretsKey.ApiKeys_AzureOpenAIEndPoint),
-    new ApiKeyCredential(openAiKey));
+    new ApiKeyCredential(openAiKey))!;
 
 // Build an AI agent on top of the chat client.
 // This wraps your model and gives you a simpler high level interface to run tasks.
@@ -47,7 +47,7 @@ Console.WriteLine("---");
 // Good for long answers or building real time interfaces.
 await foreach (AgentRunResponseUpdate update in agent.RunStreamingAsync("How to make soup?"))
 {
-    
+
     Console.Write(update);   // Write incremental chunks as they arrive
 }
 

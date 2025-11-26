@@ -21,7 +21,7 @@ ChatClientAgent agent = client
     [
         AIFunctionFactory.Create(Tools.GetCurrentDateTime,"get_current_date_time"),
         AIFunctionFactory.Create(Tools.GetCurrentTimeZone,"get_current_time_zone")
-        ]
+    ]
     );
 
 AgentThread thread = agent.GetNewThread();
@@ -33,7 +33,6 @@ while (true)
     ChatMessage message = new ChatMessage(ChatRole.User, userInput);
     AgentRunResponse response = await agent.RunAsync(message, thread);
     Console.WriteLine(response);
-
     Utils.Separator();
 }
 
@@ -62,5 +61,4 @@ public static class Tools
         UTC,
         Local
     }
-
 }

@@ -1,16 +1,17 @@
 <Solution>
   <Folder Name="/ChatHistory/">
-    <Project Path="MessageHistory/MessageHistory.csproj" Id="1dc5fcb2-964e-43c9-9572-a5137b328e63" />
+    <Project Path="D:/Work/MicrosoftAgentFramework/MessageHistory/MessageHistory.csproj" Id="1dc5fcb2-964e-43c9-9572-a5137b328e63" />
   </Folder>
-  <Folder Name="/Tools/">
-    <Project Path="BasicToolCalling/BasicToolCalling.csproj" Id="57f410de-1112-4f4c-9a90-ada209a8bf8b" />
+  <Folder Name="/ToolsAndMCP/">
+    <Project Path="ComplexToolCalling/ComplexToolCalling.csproj" Id="d3f4345c-e9c5-462a-9132-5e82188aa139" />
+    <Project Path="D:/Work/MicrosoftAgentFramework/BasicToolCalling/BasicToolCalling.csproj" Id="57f410de-1112-4f4c-9a90-ada209a8bf8b" />
   </Folder>
-  <Project Path="Agent.AzureAiFoundry/Agent.AzureAiFoundry.csproj" />
-  <Project Path="Agent.AzureFoundryLocal/Agent.AzureFoundryLocal.csproj" Id="7769b506-a1cb-4b8a-920c-60bea75a2f53" />
-  <Project Path="Agent.AzureOpenAi/Agent.AzureOpenAi.csproj" />
-  <Project Path="Agent.Olaama/Agent.Olaama.csproj" Id="0e841bfc-a544-4d53-af14-d604e5edddc4" />
-  <Project Path="Agent.OpenAI/Agent.OpenAI.csproj" />
-  <Project Path="ProjectConstant/ProjectConstant.csproj" />
-  <Project Path="Shared/Shared.csproj" Id="8e74497b-66cd-4d8c-a502-dabb8c31f092" />
-  <Project Path="TokenUsage/TokenUsage.csproj" Id="4b66b733-c750-4d78-9bfa-7e4d6e7dc2ae" />
+  <Project Path="D:/Work/MicrosoftAgentFramework/Agent.AzureAiFoundry/Agent.AzureAiFoundry.csproj" />
+  <Project Path="D:/Work/MicrosoftAgentFramework/Agent.AzureFoundryLocal/Agent.AzureFoundryLocal.csproj" Id="7769b506-a1cb-4b8a-920c-60bea75a2f53" />
+  <Project Path="D:/Work/MicrosoftAgentFramework/Agent.AzureOpenAi/Agent.AzureOpenAi.csproj" />
+  <Project Path="D:/Work/MicrosoftAgentFramework/Agent.Olaama/Agent.Olaama.csproj" Id="0e841bfc-a544-4d53-af14-d604e5edddc4" />
+  <Project Path="D:/Work/MicrosoftAgentFramework/Agent.OpenAI/Agent.OpenAI.csproj" />
+  <Project Path="D:/Work/MicrosoftAgentFramework/ProjectConstant/ProjectConstant.csproj" />
+  <Project Path="D:/Work/MicrosoftAgentFramework/Shared/Shared.csproj" Id="8e74497b-66cd-4d8c-a502-dabb8c31f092" />
+  <Project Path="D:/Work/MicrosoftAgentFramework/TokenUsage/TokenUsage.csproj" Id="4b66b733-c750-4d78-9bfa-7e4d6e7dc2ae" />
 </Solution>
