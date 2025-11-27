@@ -2,6 +2,9 @@
   <Folder Name="/ChatHistory/">
     <Project Path="D:/Work/MicrosoftAgentFramework/MessageHistory/MessageHistory.csproj" Id="1dc5fcb2-964e-43c9-9572-a5137b328e63" />
   </Folder>
+  <Folder Name="/StronglyTypedOutput/">
+    <Project Path="StronglyTypedOutputStructuredOutput/StronglyTypedOutputStructuredOutput.csproj" Id="bccc20bc-5e30-4281-b0a0-a807ae82390b" />
+  </Folder>
   <Folder Name="/ToolsAndMCP/">
     <Project Path="ComplexToolCalling/ComplexToolCalling.csproj" Id="d3f4345c-e9c5-462a-9132-5e82188aa139" />
     <Project Path="D:/Work/MicrosoftAgentFramework/BasicToolCalling/BasicToolCalling.csproj" Id="57f410de-1112-4f4c-9a90-ada209a8bf8b" />
