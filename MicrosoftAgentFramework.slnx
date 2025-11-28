@@ -5,6 +5,9 @@
   <Folder Name="/StronglyTypedOutput/">
     <Project Path="StronglyTypedOutputStructuredOutput/StronglyTypedOutputStructuredOutput.csproj" Id="bccc20bc-5e30-4281-b0a0-a807ae82390b" />
   </Folder>
+  <Folder Name="/ThinkingReasoning/">
+    <Project Path="Reasoning.OpenAI/Reasoning.OpenAI.csproj" Id="2ba0f21c-4f67-4032-8537-f50c276e350f" />
+  </Folder>
   <Folder Name="/ToolsAndMCP/">
     <Project Path="ComplexToolCalling/ComplexToolCalling.csproj" Id="d3f4345c-e9c5-462a-9132-5e82188aa139" />
     <Project Path="D:/Work/MicrosoftAgentFramework/BasicToolCalling/BasicToolCalling.csproj" Id="57f410de-1112-4f4c-9a90-ada209a8bf8b" />
