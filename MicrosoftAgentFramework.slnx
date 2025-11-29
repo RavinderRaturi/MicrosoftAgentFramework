@@ -2,6 +2,9 @@
   <Folder Name="/ChatHistory/">
     <Project Path="D:/Work/MicrosoftAgentFramework/MessageHistory/MessageHistory.csproj" Id="1dc5fcb2-964e-43c9-9572-a5137b328e63" />
   </Folder>
+  <Folder Name="/Input (PDF &amp; Image)/">
+    <Project Path="AgentInputData/AgentInputData.csproj" Id="c3d674e9-f36a-4b21-b7aa-f8d0977d131d" />
+  </Folder>
   <Folder Name="/StronglyTypedOutput/">
     <Project Path="StronglyTypedOutputStructuredOutput/StronglyTypedOutputStructuredOutput.csproj" Id="bccc20bc-5e30-4281-b0a0-a807ae82390b" />
   </Folder>
