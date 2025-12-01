@@ -6,6 +6,7 @@
     <Project Path="AgentInputData/AgentInputData.csproj" Id="c3d674e9-f36a-4b21-b7aa-f8d0977d131d" />
   </Folder>
   <Folder Name="/Multi Agent Scenarios/">
+    <Project Path="MultiAgent.AgentAsTool/MultiAgent.AgentAsTool.csproj" Id="bedd84d4-ebaa-410f-9d1a-5abd2a9af45a" />
     <Project Path="MultiAgent.ManualViaStructuredOutput/MultiAgent.ManualViaStructuredOutput.csproj" Id="4d621107-9de6-486c-bf13-7b6c57a04617" />
   </Folder>
   <Folder Name="/StronglyTypedOutput/">
