@@ -29,8 +29,45 @@ AIAgent stringAgent = client
     .Use(FunctionCallMiddleware)
     .Build();
 
+AIAgent numberAgent = client
+    .GetChatClient(configuration.ChatDeploymentName)
+    .CreateAIAgent(
+        name: "NumberToolsAgent",
+        instructions: "You are number manipulator",
+        tools: [
+            AIFunctionFactory.Create(NumberTools.AnswerToEveryProblem),
+            AIFunctionFactory.Create(NumberTools.RandomNumber)
+            ])
+    .AsBuilder()
+    .Use(FunctionCallMiddleware)
+    .Build();
 
+Utils.WriteLineGreen("DELEGATE AGENT AS TOOL SAMPLE");
 
+AIAgent delegationAgent = client
+    .GetChatClient(configuration.ChatDeploymentName)
+    .CreateAIAgent(
+        name: "DelegationAgent",
+        instructions: "You are an agent that delegates tasks to other agents based on whether the task is string or number manipulation.",
+        tools: [
+stringAgent.AsAIFunction(new AIFunctionFactoryOptions
+{
+    Name = "StringToolsAgent",
+}),
+numberAgent.AsAIFunction(new AIFunctionFactoryOptions
+{
+    Name= "NumberToolsAgent"
+})
+            ])
+    .AsBuilder()
+    .Use(FunctionCallMiddleware)
+    .Build();
+
+AgentRunResponse responseFromDelegate = await delegationAgent.RunAsync("Upper case 'hello world' and get me a random number");
+Console.WriteLine(responseFromDelegate);
+responseFromDelegate.Usage.OutputAsInformation();
+
+Utils.Separator();
 
 
 async ValueTask<object?> FunctionCallMiddleware(AIAgent callingAgent, FunctionInvocationContext context,
