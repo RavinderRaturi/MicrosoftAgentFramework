@@ -36,7 +36,7 @@ Microsoft.Agents.AI.Workflows.Workflow workflow = builder.Build();
 
 Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-const string input = "I would like to order a large pizza with pepperoni, mushroooooms, and pineapple.";
+const string input = "I would like to order a large pizza with pepperoni, mushrooms, and pineapple.";
 
 StreamingRun run = await InProcessExecution.StreamAsync(workflow: workflow, input: input);
 
