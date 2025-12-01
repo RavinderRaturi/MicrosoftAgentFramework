@@ -16,6 +16,9 @@
     <Project Path="D:/Work/MicrosoftAgentFramework/BasicToolCalling/BasicToolCalling.csproj" Id="57f410de-1112-4f4c-9a90-ada209a8bf8b" />
     <Project Path="McpServerToolCalling/McpServerToolCalling.csproj" Id="b0c43de4-b614-477f-a750-8257f9c5fb7a" />
   </Folder>
+  <Folder Name="/Workflows/">
+    <Project Path="Workflow/Workflow.AiAssisted.PizzaSample.csproj" />
+  </Folder>
   <Project Path="D:/Work/MicrosoftAgentFramework/Agent.AzureAiFoundry/Agent.AzureAiFoundry.csproj" />
   <Project Path="D:/Work/MicrosoftAgentFramework/Agent.AzureFoundryLocal/Agent.AzureFoundryLocal.csproj" Id="7769b506-a1cb-4b8a-920c-60bea75a2f53" />
   <Project Path="D:/Work/MicrosoftAgentFramework/Agent.AzureOpenAi/Agent.AzureOpenAi.csproj" />
