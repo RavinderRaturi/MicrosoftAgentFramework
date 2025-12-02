@@ -39,6 +39,7 @@ public class ConfigurationManager
         string azureOpenAiEndpoint = configurationRoot["AzureOpenAiEndpoint"] ?? string.Empty;
         string azureOpenAiKey = configurationRoot["AzureOpenAiKey"] ?? string.Empty;
         string chatDeploymentName = configurationRoot["ChatDeploymentName"] ?? string.Empty;
+        string chatDeploymentName4 = configurationRoot["DeploymentName4"] ?? string.Empty;
         string embeddingModelName = configurationRoot["EmbeddingModelName"] ?? string.Empty;
         string azureAiFoundryAgentEndpoint = configurationRoot["AzureAiFoundryAgentEndpoint"] ?? string.Empty;
         string azureAiFoundryAgentId = configurationRoot["AzureAiFoundryAgentId"] ?? string.Empty;
@@ -59,6 +60,7 @@ public class ConfigurationManager
             azureOpenAiEndpoint,
             azureOpenAiKey,
             chatDeploymentName,
+            chatDeploymentName4,
             embeddingModelName,
             azureAiFoundryAgentEndpoint,
             azureAiFoundryAgentId,

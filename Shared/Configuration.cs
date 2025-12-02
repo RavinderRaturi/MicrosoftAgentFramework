@@ -5,6 +5,7 @@ public record Configuration(
     string AzureOpenAiEndpoint,
     string AzureOpenAiKey,
     string ChatDeploymentName,
+    string ChatDeploymentName4,
     string EmbeddingModelName,
     string AzureAiFoundryAgentEndpoint,
     string AzureAiFoundryAgentId,
