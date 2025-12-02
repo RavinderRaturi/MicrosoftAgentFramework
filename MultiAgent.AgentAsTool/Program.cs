@@ -102,7 +102,7 @@ AIAgent delegationAgent = client
 // 1. Delegate the uppercasing part to StringToolsAgent.
 // 2. Delegate random number generation to NumberToolsAgent.
 AgentRunResponse responseFromDelegate =
-    await delegationAgent.RunAsync("Upper case 'hello world' and get me a random number");
+    await delegationAgent.RunAsync("Upper case 'hello world' and give me a random number.");
 
 // Dump the full response to the console.
 Console.WriteLine(responseFromDelegate);
@@ -146,7 +146,7 @@ AIAgent directAgentCall = client
 // 1. Lower case "HELLO WORLD".
 // 2. Get "the answer to every problem".
 AgentRunResponse responseFromDirectCall =
-    await directAgentCall.RunAsync("Lower case 'HELLO WORLD' and get me the answer to every problem");
+    await directAgentCall.RunAsync("Upper case 'hello world' and give me a random number.");
 
 // Print the full model response.
 Console.WriteLine(responseFromDirectCall);
