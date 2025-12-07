@@ -40,9 +40,17 @@ await foreach (WorkflowEvent evt in run.WatchStreamAsync().ConfigureAwait(false)
     }
 }
 
-foreach (ChatMessage msg in responses.Where(x => x.Role == ChatRole.User))
+foreach (ChatMessage msg in responses)
 {
-    Utils.WriteLineGreen(msg.AuthorName ?? "UnKnow");
+
+    if (msg.Role == ChatRole.User)
+    {
+        Utils.WriteLineYellow(msg.AuthorName ?? "UnKnown");
+        Console.WriteLine($"{msg.Text}");
+        Utils.Separator();
+
+    }
+    Utils.WriteLineGreen(msg.AuthorName ?? "UnKnown");
     Console.WriteLine($"{msg.Text}");
     Utils.Separator();
 }
