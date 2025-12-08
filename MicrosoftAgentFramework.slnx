@@ -33,4 +33,5 @@
   <Project Path="D:/Work/MicrosoftAgentFramework/ProjectConstant/ProjectConstant.csproj" />
   <Project Path="D:/Work/MicrosoftAgentFramework/Shared/Shared.csproj" Id="8e74497b-66cd-4d8c-a502-dabb8c31f092" />
   <Project Path="D:/Work/MicrosoftAgentFramework/TokenUsage/TokenUsage.csproj" Id="4b66b733-c750-4d78-9bfa-7e4d6e7dc2ae" />
+  <Project Path="Demo/Demo.csproj" Id="d3ed377f-4aa5-49c3-9b52-4564d9cee069" />
 </Solution>
