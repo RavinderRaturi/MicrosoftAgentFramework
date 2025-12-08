@@ -23,6 +23,7 @@
   <Folder Name="/Workflows/">
     <Project Path="Workflow/Workflow.AiAssisted.PizzaSample/Workflow.AiAssisted.PizzaSample.csproj" />
     <Project Path="Workflow/Workflow.Concurrent/Workflow.Concurrent.csproj" Id="fbc22a1d-0602-4738-a125-556c55ee99a0" />
+    <Project Path="Workflow/Workflow.Handoff/Workflow.Handoff.csproj" Id="06ed77a3-7a56-4758-95ee-de9c968c0c6b" />
     <Project Path="Workflow/Workflow.Sequential/Workflow.Sequential.csproj" />
   </Folder>
   <Project Path="D:/Work/MicrosoftAgentFramework/Agent.AzureAiFoundry/Agent.AzureAiFoundry.csproj" />
