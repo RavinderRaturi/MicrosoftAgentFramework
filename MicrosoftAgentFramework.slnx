@@ -9,6 +9,9 @@
     <Project Path="MultiAgent.AgentAsTool/MultiAgent.AgentAsTool.csproj" Id="bedd84d4-ebaa-410f-9d1a-5abd2a9af45a" />
     <Project Path="MultiAgent.ManualViaStructuredOutput/MultiAgent.ManualViaStructuredOutput.csproj" Id="4d621107-9de6-486c-bf13-7b6c57a04617" />
   </Folder>
+  <Folder Name="/Other Topics/">
+    <Project Path="Other Topics/SettingsOnAiAgent/SettingsOnAiAgent.csproj" Id="1b8959f5-c12a-4760-b1cc-1be33d74625a" />
+  </Folder>
   <Folder Name="/StronglyTypedOutput/">
     <Project Path="StronglyTypedOutputStructuredOutput/StronglyTypedOutputStructuredOutput.csproj" Id="bccc20bc-5e30-4281-b0a0-a807ae82390b" />
   </Folder>
