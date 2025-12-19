@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/AdditionalProjects/">
+    <Project Path="Additional/LocalFirstMinistralOllama/LocalFirstMinistralOllama.csproj" Id="a4ea97ef-a861-4370-aced-deb168ef3623" />
+  </Folder>
   <Folder Name="/ChatHistory/">
     <Project Path="D:/Work/MicrosoftAgentFramework/MessageHistory/MessageHistory.csproj" Id="1dc5fcb2-964e-43c9-9572-a5137b328e63" />
   </Folder>
